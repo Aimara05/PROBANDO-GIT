@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+
+<h1>TODOS LOS NUMEROS PARES </h1>
+
+<script>
+
+    function saltarLinea() {
+        document.write("<br>");    
+        document.write("<br>");    
+        document.write("<br>");    
+    }  
+
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+var cantNum = 1;
+
+    while (cantNum <= 100) {
+    	numPar = 2*cantNum ;
+    	imprimir(numPar);
+     cantNum = cantNum +1;
+    }
+
+    imprimir("fin")
+
+</script>
